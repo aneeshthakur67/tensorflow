@@ -433,6 +433,14 @@ def _reset() -> None:
     _dtensor_singleton.clear_tpu_core_ids()
   with _dtensor_singleton_lock:
     _dtensor_singleton = None
+    
+ def tensor_hub(a,b,c):
+  if tensor_hub == "matrix1":
+  print("matrix 1")
+  elif tensor_hub == "matrix2":
+  print("matrix2")
+  else:
+    print("matrix3")
 
 
 # ----------------------------------------------------------------------------
